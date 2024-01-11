@@ -1,0 +1,37 @@
+{
+"free":
+[
+{"ques":"Work is defined as","opta":"Force per unit time","optb":"Force over a distance","optc":"Force per unit distance","optd":"none of these","answ":"Force over a distance"},
+{"ques":"The SI unit of energy is","opta":"joule","optb":"newton","optc":"meter/second","optd":"newton-meter","answ":"joule"},
+{"ques":"What is the sign of the work performed on an object in uniform circular motion?","opta":"Zero","optb":"Positive","optc":"Negative","optd":"Depends on the particular situation","answ":"Zero"},
+{"ques":"What is the magnitude of the work done by a force acting on a particle instantaneously?","opta":"Zero","optb":"Positive","optc":"Negative","optd":"none of these","answ":"Zero"},
+{"ques":"Energy is measured in the same units as","opta":"Power","optb":"Force","optc":"Work","optd":"none of these","answ":"Work"},
+{"ques":"The units of power are defined as","opta":"Joules","optb":"Newtons","optc":"Joules per meter","optd":"Watts","answ":"Watts"},
+{"ques":"The potential energy is always the same for an object with the same","opta":"Velocity","optb":"Speed","optc":"Acceleration","optd":"Position","answ":"Position"},
+{"ques":"The sum of potential and kinetic energy is always","opta":"Zero","optb":"Positive","optc":"Negative","optd":"none of these","answ":"none of these"},
+{"ques":"The sum of the change in kinetic and potential energy is always","opta":"Zero","optb":"Positive","optc":"Negative","optd":"none of these","answ":"Zero"},
+{"ques":"The potential energy of gravity is defined as","opta":"mg","optb":"mg/h","optc":"mgh","optd":"g/h","answ":"mgh"},
+{"ques":"Two masses m and 9 m are moving with equal kinetic energies. The ratio of the magnitudes of their momenta is","opta":"1 : 1","optb":"1 : 3","optc":"3 : 1","optd":"1 : 9","answ":"1 : 3"},
+{"ques":"When a gas is compressed, its pressure","opta":"increases","optb":"decreases","optc":"remains same","optd":"none of these","answ":"increases"},
+{"ques":"If the weight of a body is more than the weight of the liquid displaced by it, then the body may","opta":"float","optb":"first floats and then sinks","optc":"sinks","optd":"neither floats nor sinks","answ":"float"},
+{"ques":"The S.I. unit of heat energy is","opta":"Joule","optb":"Calorie","optc":"Kilo calorie","optd":"none of these","answ":"Joule"},
+{"ques":"1 calorie equals to","opta":"4.2 J","optb":"0.42 J","optc":"420 J","optd":"4200 J","answ":"4.2 J"},
+{"ques":"Heat capacity equal to","opta":"mathml/20150922-1442928348-4319.mml","optb":"mass / specific heat capacity","optc":"specific heat capacity / mass","optd":"none of these","answ":"mathml/20150922-1442928348-4319.mml"},
+{"ques":"A and B are two bodies. The temperature of A is greater than that of B. The heat will flow","opta":"A to B","optb":"B to A","optc":"Will not flow","optd":"none of these","answ":"A to B"},
+{"ques":"","opta":"increases","optb":"mathml/20150922-1442928387-4319.mml","optc":"remains the same","optd":"first increases then decreases","answ":"mathml/20150922-1442928387-4319.mml"},
+{"ques":"When salt is properly mixed with ice, the melting point of ice","opta":"is lowered","optb":"is raised","optc":"remains the same","optd":"becomes infinite","answ":"is lowered"},
+{"ques":"Sound is produced when objects","opta":"vibrate","optb":"accelerated","optc":"displaced","optd":"frictionised","answ":"vibrate"},
+{"ques":"The sound travels fastest in","opta":"solids","optb":"liquids","optc":"gases","optd":"none of these","answ":"solids"},
+{"ques":"The unit to measure intensity of sound is","opta":"decibel","optb":"joule","optc":"candulla","optd":"none of these","answ":"decibel"},
+{"ques":"Echo is a type of","opta":"reflected sound","optb":"refracted sound","optc":"polarized sound","optd":"none of these","answ":"reflected sound"},
+{"ques":"Sound cannot travel though","opta":"solids","optb":"liquids","optc":"gases","optd":"vacuum","answ":"vacuum"},
+{"ques":"One hertz is equivalent to","opta":"one cycle per second","optb":"one second","optc":"one meter per second","optd":"one second per meter","answ":"one cycle per second"},
+{"ques":"The unit of frequency of sound is","opta":"meter","optb":"second","optc":"hertz","optd":"none of these","answ":"hertz"},
+{"ques":"Speed of sound at constant temperature depends on","opta":"Pressure","optb":"Density of gas","optc":"both (1) and (2)","optd":"none of these","answ":"none of these"},
+{"ques":"The waves in which the particles of the medium vibrate in a direction perpendicular to the direction of wave motion is known as","opta":"Transverse wave","optb":"Longitudinal waves","optc":"Propagated waves","optd":"none of these","answ":"Transverse wave"},
+{"ques":"Ultrasonic wave have frequency","opta":"below 20 Hz","optb":"between 20 and 20,000 Hz","optc":"only above 20,000 Hz","optd":"only above 20,000 MHz","answ":"only above 20,000 Hz"},
+{"ques":"To hear a distinct echo, the minimum distance of a reflecting surface should be","opta":"17 meters","optb":"34 meters","optc":"68 meters","optd":"340 meters","answ":"17 meters"},
+]
+}
+
+

@@ -1,0 +1,35 @@
+{
+"free":
+[
+{"ques":"Kidney stones are mainly formed by which of the following compound ","opta":"Sodium chloride ","optb":"Silicates ","optc":"Calcium bicarbonate ","optd":"Calcium oxalate ","answ":"Calcium oxalate "},
+{"ques":"Potatoes are borne on","opta":"primary roots ","optb":"stem branches ","optc":"lateral roots ","optd":"adventitious roots ","answ":"stem branches "},
+{"ques":"Which one among the following has haustoria or sucking roots?","opta":"Orchids ","optb":"Mango ","optc":"Chestnut ","optd":"Cuscuta","answ":"Cuscuta"},
+{"ques":"The phylloclade commonly found in xerophytic plants is the modified ","opta":"stem","optb":"roots ","optc":"leaf","optd":"flower ","answ":"leaf"},
+{"ques":"Which one among the following is the largest edible bud found in nature?","opta":"Cauliflower ","optb":"Agave","optc":"Cabbage ","optd":"Drosera","answ":"Cabbage "},
+{"ques":"The fruit after ripening becomes soft. It is due to ","opta":"dissolution of tannin in sap","optb":"dissolution of middle lamella","optc":"formation of ethylene gas","optd":"formation of auxin","answ":"dissolution of middle lamella"},
+{"ques":"Which one among the following parts of castor seed yields oil?","opta":"Nucellus","optb":"Ccaruncle","optc":"Endosperm","optd":"Cotyledon","answ":"Endosperm"},
+{"ques":"Which one of the following is responsible for the working of Newton's colour disc experiment?","opta":"Formation of pure spectra","optb":"Formation of impure spectra","optc":"Persistence of vision ","optd":"Principle of complementary colour","answ":"Persistence of vision "},
+{"ques":"Who is the founder of quantum theory of radiation?","opta":"Einstein ","optb":"Bohr","optc":"Plank","optd":"S N Bose","answ":"Plank"},
+{"ques":"Fiber optics cable used in communication, works on the principle of ","opta":"regular reflection of light ","optb":"diffuse reflection of light ","optc":"refraction of light ","optd":"total internal reflection of light ","answ":"total internal reflection of light "},
+{"ques":"The outer skin most of the crustaceans are made up of a carbohydrate. This carbohydrate is","opta":"cellulose ","optb":"galactose","optc":"chitin","optd":"starch ","answ":"chitin"},
+{"ques":"Rutherford's scattering experiment proved the presence of ","opta":"atoms in all matter ","optb":"electrons in atoms","optc":"neutrons in atoms","optd":"nucleus in atoms","answ":"nucleus in atoms"},
+{"ques":"Mass is the measure of","opta":"matter contained","optb":"weight","optc":"force","optd":"none of these","answ":"matter contained"},
+{"ques":"The mass is measured by","opta":"a beam balance","optb":"a spring balance","optc":"micro balance","optd":"none of these","answ":"a beam balance"},
+{"ques":"A hydrometer is used to measure","opta":"density","optb":"mass","optc":"weight","optd":"R.D.","answ":"density"},
+{"ques":"Among the following the derived quantity is","opta":"mass","optb":"length","optc":"density","optd":"time","answ":"density"},
+{"ques":"The SI unit of current is","opta":"kelvin","optb":"ampere","optc":"newton","optd":"volt","answ":"ampere"},
+{"ques":"The SI unit of weight is","opta":"kilogram","optb":"newton","optc":"newton meter","optd":"kilo meter","answ":"newton"},
+{"ques":"When a substance is heated its density","opta":"increases","optb":"decreases","optc":"remains same","optd":"none of these","answ":"decreases"},
+{"ques":"In SI units, candela is the unit of","opta":"current","optb":"temperature","optc":"luminous intensity","optd":"none of these","answ":"luminous intensity"},
+{"ques":"Practical unit of heat is","opta":"Calorie","optb":"Horse power","optc":"Joule","optd":"Watt","answ":"Calorie"},
+{"ques":"If force and displacement of particle in direction of force are doubled. Work would be","opta":"Double","optb":"4 times","optc":"Half","optd":"1/4 times","answ":"4 times"},
+{"ques":"If velocity of a body is twice of previous velocity, then kinetic energy will become","opta":"2 times","optb":"1/2 times","optc":"4 times","optd":"1 times","answ":"4 times"},
+{"ques":"The unit of work is","opta":"newton","optb":"joule","optc":"meter","optd":"second","answ":"joule"},
+{"ques":"1 kilowatt hour is equal to","opta":"1 joule","optb":"100 joule","optc":"36 joule","optd":"mathml/20150922-1442927510-4319.mml","answ":"mathml/20150922-1442927510-4319.mml"},
+{"ques":"when a stone is thrown upward to a certain height, it possesses","opta":"potential energy","optb":"kinetic energy","optc":"wind energy","optd":"sound energy","answ":"potential energy"},
+{"ques":"A fast wind can turn the blades of a windmill because it possesses","opta":"potential energy","optb":"kinetic energy","optc":"chemical energy","optd":"heat energy","answ":"potential energy"},
+{"ques":"Splitting of Uranium nucleus releases","opta":"kinetic energy","optb":"potential energy","optc":"nuclear energy","optd":"chemical energy","answ":"nuclear energy"},
+{"ques":"A bullet fired from a gun possesses","opta":"potential energy","optb":"kinetic energy","optc":"wind energy","optd":"solar energy","answ":"kinetic energy"}
+{"ques":"Potential energy of your body is minimum when you","opta":"are standing","optb":"are sitting on a chair","optc":"are sitting on the ground","optd":"lie down on the ground","answ":"lie down on the ground"},
+]
+}

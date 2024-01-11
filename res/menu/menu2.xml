@@ -1,0 +1,33 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    
+    <item
+        android:id="@+id/item1"
+        android:title="Online Rank"/>
+    <item
+        android:id="@+id/item2"
+        android:title="Sound"/>
+    <item
+        android:id="@+id/item3"
+        android:title="Gold Bank"/>
+
+   <item
+        android:id="@+id/item4"
+        android:title="Play Online"/>
+
+   <item
+        android:id="@+id/item5"
+        android:title="Check For Update !"/>
+	
+	<item
+        android:id="@+id/item8"
+        android:title="Language"/>
+
+  	<item
+        android:id="@+id/item6"
+        android:title="Help"/>
+	
+    <item
+        android:id="@+id/item7"
+        android:title="Exit"/>
+    
+</menu>
