@@ -16,14 +16,8 @@ import android.media.*;
 import android.os.CountDownTimer;
 import java.util.concurrent.*;
 import android.preference.*;
-import org.apache.http.client.*;
-import org.apache.http.impl.client.*;
-import org.apache.http.client.methods.*;
-import org.apache.http.*;
 import android.os.*;
 import android.net.*;
-import org.apache.http.client.entity.*;
-import org.apache.http.message.*;
 import android.database.sqlite.*;
 import android.database.*;
 
@@ -719,29 +713,36 @@ public class MainActivity extends Activity {
 
 		public String request(String url,List<NameValuePair> params)
 		{
-			HttpClient hc = new DefaultHttpClient();
-			HttpPost hp = new HttpPost(url);
-			
-			
 			try
 			{
-				hp.setEntity(new UrlEncodedFormEntity(params));
-				HttpResponse hr = hc.execute(hp);
-				HttpEntity he = hr.getEntity();
-				is = he.getContent();
-			}
-			catch(UnsupportedOperationException e)
-			{
+				URL u = new URL(url);
+				HttpURLConnection hc = (HttpURLConnection) u.openConnection();
+				hc.setRequestMethod("POST");
+				hc.setDoOutput(true);
+				hc.setDoInput(true);
 
+				StringBuilder sb = new StringBuilder();
+				for (int i = 0; i < params.size(); i++) {
+					if (i > 0) sb.append("&");
+					sb.append(URLEncoder.encode(params.get(i).getName(), "UTF-8"));
+					sb.append("=");
+					sb.append(URLEncoder.encode(params.get(i).getValue(), "UTF-8"));
+				}
+
+				OutputStream os = hc.getOutputStream();
+				os.write(sb.toString().getBytes("UTF-8"));
+				os.close();
+
+				is = hc.getInputStream();
 			}
 			catch(IOException e)
 			{
 
 			}
 
-			try 
+			try
 			{
-				BufferedReader br = new BufferedReader(new InputStreamReader (is,"iso-8859-1"),8);
+				BufferedReader br = new BufferedReader(new InputStreamReader(is,"iso-8859-1"),8);
 				String line = "";
 				StringBuilder sb = new StringBuilder();
 				while((line = br.readLine()) != null)
@@ -756,7 +757,7 @@ public class MainActivity extends Activity {
 
 			}
 
-			return result;	
+			return result;
 		}}
 		
 		
@@ -784,11 +785,11 @@ class Fetch extends AsyncTask<String,Void,String>
 	protected String doInBackground(String[] p1)
 	{
 		List<NameValuePair> params = new ArrayList<NameValuePair>();
-		params.add(new BasicNameValuePair("type",p1[1]));
-		params.add(new BasicNameValuePair("mid",p1[2]));
-		params.add(new BasicNameValuePair("ques1",p1[3]));
-		params.add(new BasicNameValuePair("score1",p1[4]));
-		params.add(new BasicNameValuePair("status",p1[5]));
+		params.add(new NameValuePair("type",p1[1]));
+		params.add(new NameValuePair("mid",p1[2]));
+		params.add(new NameValuePair("ques1",p1[3]));
+		params.add(new NameValuePair("score1",p1[4]));
+		params.add(new NameValuePair("status",p1[5]));
 		
 		reg = jp.request(p1[0],params);
 		
